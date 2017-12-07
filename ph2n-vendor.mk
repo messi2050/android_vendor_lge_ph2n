@@ -19,12 +19,12 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/vendor,system/vendor)
 
 # app files
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/app,system/app)
+#PRODUCT_COPY_FILES += \
+#    $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/app,system/app)
 
 # priv-app
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/priv-app,system/priv-app)
+#PRODUCT_COPY_FILES += \
+#    $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/priv-app,system/priv-app)
 
 # bin files
 PRODUCT_COPY_FILES += \
@@ -42,10 +42,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/framework,system/framework)
 
-# misc
-#PRODUCT_COPY_FILES += \
-#    vendor/lge/ph2n/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
-
-#PRODUCT_PACKAGES += \
-#    libtime_genoff
-
+PRODUCT_PACKAGES += \
+    libtime_genoff \
+    QtiTelephonyService \
+    TimeService \
+    datastatusnotification \
+    fastdormancy \
+    shutdownlistener \
+    CNEService \
+    QtiTetherService \
+    dpmserviceapp \
+    qcrilmsgtunnel \
+    QtiTetherService
