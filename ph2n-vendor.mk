@@ -46,6 +46,6 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_COPY_FILES += \
 #    vendor/lge/ph2n/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
-#PRODUCT_PACKAGES += \
-#    libtime_genoff
+PRODUCT_PACKAGES += \
+    libtime_genoff
 
