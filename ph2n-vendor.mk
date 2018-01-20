@@ -34,6 +34,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/lib,system/lib)
 
+# lib64 files
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/lib64,system/lib64)
+
 # etc files
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/etc,system/etc)
