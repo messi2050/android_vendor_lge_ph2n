@@ -26,10 +26,6 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_COPY_FILES += \
 #    $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/priv-app,system/priv-app)
 
-# bin files
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/bin,system/bin)
-
 # lib files
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/lib,system/lib)
