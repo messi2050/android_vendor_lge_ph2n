@@ -16,7 +16,7 @@
 
 # vendor files
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/vendor,system/vendor)
+    $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/vendor,$(TARGET_COPY_OUT_VENDOR))
 
 # app files
 #PRODUCT_COPY_FILES += \
